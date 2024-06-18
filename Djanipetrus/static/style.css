@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Section */
+  #profile {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+  
+  .profile-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info .name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info .bio {
+    font-size: 16px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 40px;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .project {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .project .project-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project .project-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .project .technologies-used {
+    font-size: 14px;
+  }
+  
+  /* Skills Section */
+  #skills {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .skill .skill-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .skill .skill-category {
+    font-size: 14px;
+  }
